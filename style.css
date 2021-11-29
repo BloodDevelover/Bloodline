@@ -107,14 +107,14 @@ h2 {
     background-size: 1000%;
     transform-origin: right;
     color: transparent;
-    animation: drive 5s linear infinite;
+    animation: drive 3s linear infinite;
 }
 
 @keyframes drive {
     0% {
         background-position: 100% 0%;
         letter-spacing: 0;
-        font-size: 17px;
+        font-size: 16px;
     }
     50% { 
         background-position: 0% 100%;
@@ -124,7 +124,7 @@ h2 {
     100% {
         background-position: 100% 0%;
         letter-spacing: 0px;
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
